@@ -1,0 +1,17 @@
+{
+  "server": {
+    "allow-cors": true,
+    "base-path": "/wd/hub",
+    "debug-log-spacing": true,
+    "keep-alive-timeout": 30000,
+    "log-timestamp": true,
+    "long-stacktrace": true,
+    "session-override": false,
+    "relaxed-security": true,
+    "use-drivers": [
+      "uiautomator2"
+    ],
+    "use-plugins": [],
+    "plugin": {}
+  }
+}
