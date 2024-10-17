@@ -8,15 +8,16 @@
     "cypress:open": "npx cypress open",
     "cypress:run": "npx cypress run"
   },
-  "dependencies": {
-    "webdriverio": "^9.0.1"
-  },
   "devDependencies": {
     "appium": "^2.11.3",
     "appium-uiautomator2-driver": "^3.7.7",
     "axios": "^1.7.4",
     "cypress": "^13.13.3",
+    "deasync": "^0.1.30",
     "fs": "^0.0.1-security",
-    "wd": "^1.14.0"
+    "node-fetch": "^3.3.2",
+    "node-fetch-cjs": "^3.3.2",
+    "wd": "^1.14.0",
+    "webdriverio": "^9.0.1"
   }
 }
